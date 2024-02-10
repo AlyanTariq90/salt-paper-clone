@@ -1,0 +1,353 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  /* font-family: 'Saira Stencil One', sans-serif; */
+}
+.bw {
+  width: 600px;
+}
+body {
+  background-color: #000000;
+}
+
+.gray {
+  background-color: #0f0f0f;
+}
+
+.bg-color {
+  background-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-items {
+  font-size: 2rem;
+}
+
+.d-flex {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.gap {
+  gap: 20px;
+}
+.gap25 {
+  gap: 25px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mr-5 {
+  margin-right: 50px;
+}
+.ml-3 {
+  margin-left: 30px;
+}
+.ml-5 {
+  margin-left: 50px;
+}
+.ml-65 {
+  margin-left: 65px;
+}
+.ml-10 {
+  margin-left: 100px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.logo {
+  height: 70px;
+  width: 150px;
+}
+
+#franchise {
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 15px 20px;
+  background-color: transparent;
+}
+
+#order {
+  border-radius: 25px;
+  border: 0px;
+  background-color: #ed1c24;
+  padding: 15px 20px;
+}
+
+.pt-1 {
+  padding-top: 10px;
+}
+
+.pt-2 {
+  padding-top: 20px;
+}
+
+.pt-3 {
+  padding-top: 30px;
+}
+
+.pt-4 {
+  padding-top: 40px;
+}
+
+.checked {
+  color: orange;
+}
+.pt-5 {
+  padding-top: 50px;
+}
+.pt-10 {
+  padding-top: 100px;
+}
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+
+.pb-2 {
+  padding-bottom: 20px;
+}
+
+.pb-3 {
+  padding-bottom: 30px;
+}
+.pl-3 {
+  padding-left: 30px;
+}
+.pl-10 {
+  padding-left: 60px;
+}
+.pr-10 {
+  padding-right: 60px;
+}
+
+.pb-4 {
+  padding-bottom: 40px;
+}
+
+.pb-5 {
+  padding-bottom: 50px;
+}
+
+.pr-2 {
+  padding-right: 20px;
+}
+.pl-2 {
+  padding-left: 20px;
+}
+.fcolor {
+  color: #a8b3a8;
+}
+.food {
+  width: 100%;
+}
+.larger-font {
+  font-size: xx-large;
+}
+.font {
+  font-size: x-large;
+}
+.large-font {
+  font-size: large;
+}
+.font-small {
+  font-size: smaller;
+}
+.font1 {
+  font-size: 15px;
+}
+.bg-radius {
+  border-radius: 10px;
+}
+.bg-radius1 {
+  border: 1px solid white;
+}
+.bg-radius5 {
+  border-radius: 3px;
+}
+.order-btn {
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  background-color: transparent;
+}
+
+.justify-percent {
+  justify-content: 25%;
+}
+
+.align-items {
+  align-items: 25%;
+}
+
+.flex-item {
+  flex-basis: 40%;
+}
+
+.flex-item7 {
+  flex-basis: 70%;
+}
+.flex-item3 {
+  flex-basis: 26%;
+}
+
+.space {
+  letter-spacing: 5px;
+}
+
+.letter-color {
+  color: #ed1c24;
+}
+.letter-color-black {
+  color: #000000;
+}
+
+.font-size {
+  font-size: large;
+}
+
+.getdir-btn {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  background-color: transparent;
+}
+
+.img-width {
+  width: 450px;
+}
+.express-img-width {
+  width: 300px;
+}
+.pr-1 {
+  padding-right: 50px;
+}
+.text-align-center {
+  text-align: center;
+}
+.v-franchise-img {
+  height: 350px;
+  width: 600px;
+}
+.ex-franchise {
+  height: 220px;
+  width: 250px;
+  background-color: #ffffff;
+}
+.inline {
+  display: inline;
+}
+.socialpic {
+  height: 220px;
+  width: 240px;
+}
+
+.input {
+  max-width: 190px;
+  height: 44px;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    background 0.2s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.input:hover,
+.input:focus,
+.input-group:hover .input {
+  outline: none;
+  border-color: red;
+}
+
+.input-group:hover .label,
+.input:focus {
+  color: red;
+}
+
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.rating label:before {
+  content: '\2605';
+  font-size: 30px;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: red;
+  transition: color 0.3s;
+}
